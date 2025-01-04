@@ -9,9 +9,9 @@
 
 // spotify api declarations
 const TickType_t apiHitInterval = 1500 / portTICK_PERIOD_MS; // api interval, edit here in millis
-const char *client_id = "0819e81fd6de4b139db9bc6f5ba69ce0";
-const char *client_secret = "e6327880dc594d05bd62bb3ba5bb5bf4";
-const char *refresh_token = "AQA821MHkqz4-IR-cgdC__pUxvVD4XDTKhB7-Or9CqkpQ7KntXFMBNWXqfTgLXmraXUL3PK4Qsy2Q88dCX5omKR477Y-4JAZ22Cp48qJQwS6Gt0YJ1qk-agXlsZTNp6IFjY";
+const char *client_id = "";
+const char *client_secret = "";
+const char *refresh_token = "";
 Spotify sp(client_id, client_secret, refresh_token);
 response r;
 TaskHandle_t fetchSp;              // spotify fetch task on core 0
@@ -52,8 +52,8 @@ unsigned long lastScrollTime = 0;
 bool initialDelayDone = false;
 
 // wifi
-const char *WIFI_SSID = "B1201A";
-const char *WIFI_PASS = "13011301";
+const char *WIFI_SSID = "";
+const char *WIFI_PASS = "";
 void connectToWiFi()
 {
     WiFi.begin(WIFI_SSID, WIFI_PASS);
