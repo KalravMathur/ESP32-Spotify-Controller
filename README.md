@@ -1,5 +1,5 @@
 # Spotify-ESP32-Controller
-🎵 Spotify Music Controller with ESP32 🎵  This project features an advanced Spotify music controller powered by the ESP32 DevKit V1. The device connects to Wi-Fi and interacts with the Spotify API to fetch real-time track details, including the current song name, artist, playback status, and progress.
+🎵 Spotify Music Controller 🎵 an advanced ESP32-based Spotify Controller integrating FreeRTOS for concurrent task management, enabling seamless parallel processing of Spotify API requests. Implemented hardware interrupts to ensure immediate and reliable button press detection, enhancing user interaction responsiveness. Employed mutexes to achieve robust synchronization between dual cores, ensuring thread-safe operations and efficient resource management. This project demonstrates proficiency in real-time operating systems, interrupt handling, and multi-core synchronization within embedded systems.
 
 ## Features:
     1. Real-Time Track Info: Displays song name, artist, and playback progress on an OLED screen.
