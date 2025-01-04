@@ -7,6 +7,10 @@
     3. Physical Controls: Includes buttons for play/pause, next track, and previous track for a seamless music control experience.
     4. Efficient API Handling: Fetches live data from Spotify with optimized timing to ensure low latency and responsiveness.
     5. Compact and Stylish Design: Combines hardware and software to deliver a polished, standalone music controller.
+    6. FreeRTOS Integration: Enables parallel processing of Spotify API requests, improving efficiency and responsiveness.
+    7. Hardware Interrupts for Button Presses: Ensures no button press goes unregistered, providing a robust user interface.
+    8. Mutex Implementation: Facilitates safe and efficient synchronization between ESP32's dual cores for shared resource management.
+    9. Comprehensive Error Handling: Addresses potential errors in API responses, enhancing overall system stability.
 
 ## Highlights:
     1. Expertly handles Spotify API integration for live data fetching and parsing.
